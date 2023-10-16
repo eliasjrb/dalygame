@@ -11,7 +11,7 @@ export function Header() {
                     <Link href="/">
                         <Image 
                             src={logoImg} 
-                            alt="Logo do site dalygame"
+                            alt="Logo do site ebgame"
                             quality={100}
                             priority={true}
                         />
