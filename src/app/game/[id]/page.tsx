@@ -18,12 +18,12 @@ export async function generateMetadata({ params }: PropsParams): Promise<Metadat
             .then((res) => res.json())
             .catch(() => {
                 return {
-                    title: "DalyGames - Descubra jogos incríveis para se divertir."
+                    title: "EBGames - Descubra jogos incríveis para se divertir."
                 }
             })
 
             return {
-                title: `DalyGames - ${response.title}`, 
+                title: `EBGames - ${response.title}`, 
                 description: `${response.description.slice(0,100)}...`,
                 openGraph: {
                     title: response.title,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PropsParams): Promise<Metadat
             }
     } catch (err) {
         return {
-            title: "DalyGames - Descubra jogos incríveis para se divertir."
+            title: "EBGames - Descubra jogos incríveis para se divertir."
         }
     }
 }

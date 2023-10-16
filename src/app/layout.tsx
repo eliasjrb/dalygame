@@ -6,7 +6,7 @@ import { Header } from '@/components/header/index'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Daly Game - Descrubra jogos incríveis para se divertir.',
+  title: 'EB Games - Descrubra jogos incríveis para se divertir.',
   description: 'Mais de q0 mil jogos separados e organizados.',
   keywords: ['games' , 'jogos', 'steam'],
   openGraph: {

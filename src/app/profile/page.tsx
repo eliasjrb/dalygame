@@ -7,8 +7,8 @@ import { FavoriteCard } from "./components/favorite";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Meu perfil - Daly Games sua plataforma de jogos",
-    description: "Perfil Sujeito Programador | Daly Games sua plataforma de jogos!"
+    title: "Meu perfil - EB Games sua plataforma de jogos",
+    description: "Perfil Sujeito Programador | EB Games sua plataforma de jogos!"
 }
 
 export default function Profile() {
@@ -23,7 +23,7 @@ export default function Profile() {
                             className="rounded-full w-56 h-56 object-cover"
                         />
 
-                        <h1 className="font-bold text-2xl">Sujeito Programador</h1>
+                        <h1 className="font-bold text-2xl">Vem jogar com a gente. </h1>
                     </div>
                     <div className="sm:absolute top-0 right-0 gap-3 flex items-center justify-center">
                         <button className="bg-gray-700 px-4 py-3 rounded-lg text-white">
