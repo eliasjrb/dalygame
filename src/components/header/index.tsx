@@ -1,4 +1,4 @@
-import logoImg from 'public/logo.png'
+import logoImg from 'public/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { LiaGamepadSolid } from 'react-icons/lia'
@@ -12,6 +12,8 @@ export function Header() {
                         <Image 
                             src={logoImg} 
                             alt="Logo do site ebgame"
+                            width={250}
+                            height={250}
                             quality={100}
                             priority={true}
                         />
